@@ -4,7 +4,7 @@ This project demonstrates how to use the **[multi_app_flavor](https://github.com
 
 It showcases **3 distinct applications** (APP 1, APP 2, APP 3) that share common UI components but have different configurations, themes, and API endpoints.
 
-## 📱 Flavors Overview
+##  Flavors Overview
 
 | Flavor    | Name          | Color  | Entry Point               |
 | --------- | ------------- | ------ | ------------------------- |
@@ -12,7 +12,7 @@ It showcases **3 distinct applications** (APP 1, APP 2, APP 3) that share common
 | **APP 2** | Application 2 | Green  | `lib/apps/app2/main.dart` |
 | **APP 3** | Application 3 | Orange | `lib/apps/app3/main.dart` |
 
-## 🚀 How to Run
+##  How to Run
 
 You must specify the target file (`-t`) when running the app.
 
@@ -34,7 +34,7 @@ flutter run -t lib/apps/app2/main.dart
 flutter run -t lib/apps/app3/main.dart
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 This example follows a modular structure to separate entry points while keeping shared logic centralized.
 
@@ -52,7 +52,7 @@ lib/
 └── main.dart             # Default fallback (redirects to App 1)
 ```
 
-## ✨ Key Features Demonstrated
+##  Key Features Demonstrated
 
 1.  **Singleton Configuration**: How to initialize `FlavorConfig` just once in `main()`.
 2.  **Visual Banner**: Using `FlavorBanner` to show the current active flavor.
